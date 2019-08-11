@@ -3,7 +3,7 @@ body {
   margin: 25px;
 }
 
-.main-container {
+.wrapper {
   margin: 0 auto;
   width: 955px;
   height: 600px;
@@ -36,4 +36,32 @@ body {
   background-repeat: no-repeat;
   height: 264px;
   width: 397px;
+}
+
+.main {
+  display: flex;
+}
+
+.menu {
+  width: 300px;
+  margin: 50px auto;
+}
+
+.main a {
+  color: inherit;
+  display: block;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.content {
+  font-size: 1.5em;
+  height: 350px;
+  margin: 50px 10px auto auto;
+  overflow: scroll;
+  width: 500px;
+}
+
+.content .page {
+  min-height: 350px;
 }
