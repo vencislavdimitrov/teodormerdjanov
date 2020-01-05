@@ -59,6 +59,7 @@ body {
   height: 450px;
   margin: 50px 10px auto auto;
   overflow: scroll;
+  scroll-behavior: smooth;
   width: 600px;
 }
 
